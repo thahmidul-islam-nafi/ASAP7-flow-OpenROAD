@@ -1,0 +1,436 @@
+1. Executing Verilog-2005 frontend: ./designs/src/riscv32i/adder.v
+2. Executing Verilog-2005 frontend: ./designs/src/riscv32i/alu.v
+3. Executing Verilog-2005 frontend: ./designs/src/riscv32i/aludec.v
+4. Executing Verilog-2005 frontend: ./designs/src/riscv32i/controller.v
+5. Executing Verilog-2005 frontend: ./designs/src/riscv32i/datapath.v
+6. Executing Verilog-2005 frontend: ./designs/src/riscv32i/dmem.v
+7. Executing Verilog-2005 frontend: ./designs/src/riscv32i/flopenr.v
+8. Executing Verilog-2005 frontend: ./designs/src/riscv32i/flopens.v
+9. Executing Verilog-2005 frontend: ./designs/src/riscv32i/flopr.v
+10. Executing Verilog-2005 frontend: ./designs/src/riscv32i/magcompare2b.v
+11. Executing Verilog-2005 frontend: ./designs/src/riscv32i/magcompare2c.v
+12. Executing Verilog-2005 frontend: ./designs/src/riscv32i/magcompare32.v
+13. Executing Verilog-2005 frontend: ./designs/src/riscv32i/maindec.v
+14. Executing Verilog-2005 frontend: ./designs/src/riscv32i/mux2.v
+15. Executing Verilog-2005 frontend: ./designs/src/riscv32i/mux3.v
+16. Executing Verilog-2005 frontend: ./designs/src/riscv32i/mux4.v
+17. Executing Verilog-2005 frontend: ./designs/src/riscv32i/mux5.v
+18. Executing Verilog-2005 frontend: ./designs/src/riscv32i/mux8.v
+19. Executing Verilog-2005 frontend: ./designs/src/riscv32i/regfile.v
+20. Executing Verilog-2005 frontend: ./designs/src/riscv32i/riscv.v
+21. Executing Verilog-2005 frontend: ./designs/src/riscv32i/rom.v
+22. Executing Verilog-2005 frontend: ./designs/src/riscv32i/shifter.v
+23. Executing Verilog-2005 frontend: ./designs/src/riscv32i/signext.v
+24. Executing Verilog-2005 frontend: ./designs/src/riscv32i/top.v
+25. Executing Liberty frontend.
+26. Executing Liberty frontend.
+27. Executing Liberty frontend.
+28. Executing Liberty frontend.
+29. Executing Liberty frontend.
+30. Executing Liberty frontend.
+31. Executing Verilog-2005 frontend: ./platforms/asap7/yoSys/cells_clkgate_R.v
+32. Executing SYNTH pass.
+32.1. Executing HIERARCHY pass (managing design hierarchy).
+32.2. Executing AST frontend in derive mode using pre-parsed AST for module `\riscv_top'.
+32.2.1. Analyzing design hierarchy..
+32.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\dmem'.
+Warning: wire '\we_mem' is assigned in a block at ./designs/src/riscv32i/dmem.v:29.3-29.19.
+Warning: wire '\we_mem' is assigned in a block at ./designs/src/riscv32i/dmem.v:31.3-31.19.
+Warning: wire '\we_mem' is assigned in a block at ./designs/src/riscv32i/dmem.v:33.3-33.19.
+Warning: wire '\we_mem' is assigned in a block at ./designs/src/riscv32i/dmem.v:35.3-35.19.
+Warning: wire '\we_mem' is assigned in a block at ./designs/src/riscv32i/dmem.v:37.3-37.19.
+Warning: wire '\mem_out' is assigned in a block at ./designs/src/riscv32i/dmem.v:58.9-58.30.
+Warning: wire '\mem_out' is assigned in a block at ./designs/src/riscv32i/dmem.v:59.9-59.30.
+Warning: wire '\mem_out' is assigned in a block at ./designs/src/riscv32i/dmem.v:60.9-60.30.
+Warning: wire '\mem_out' is assigned in a block at ./designs/src/riscv32i/dmem.v:61.9-61.30.
+./designs/src/riscv32i/dmem.v:41: Warning: Identifier `\inter_dmem0' is implicitly declared.
+./designs/src/riscv32i/dmem.v:43: Warning: Identifier `\inter_dmem1' is implicitly declared.
+./designs/src/riscv32i/dmem.v:45: Warning: Identifier `\inter_dmem2' is implicitly declared.
+./designs/src/riscv32i/dmem.v:47: Warning: Identifier `\inter_dmem3' is implicitly declared.
+32.2.3. Executing AST frontend in derive mode using pre-parsed AST for module `\mux2'.
+32.2.4. Executing AST frontend in derive mode using pre-parsed AST for module `\ROM'.
+32.2.5. Executing AST frontend in derive mode using pre-parsed AST for module `\riscv'.
+32.2.6. Analyzing design hierarchy..
+32.2.7. Executing AST frontend in derive mode using pre-parsed AST for module `\datapath'.
+32.2.8. Executing AST frontend in derive mode using pre-parsed AST for module `\controller'.
+32.2.9. Analyzing design hierarchy..
+32.2.10. Executing AST frontend in derive mode using pre-parsed AST for module `\mux2'.
+32.2.11. Executing AST frontend in derive mode using pre-parsed AST for module `\mux2'.
+32.2.12. Executing AST frontend in derive mode using pre-parsed AST for module `\aludec'.
+32.2.13. Executing AST frontend in derive mode using pre-parsed AST for module `\maindec'.
+32.2.14. Executing AST frontend in derive mode using pre-parsed AST for module `\mux3'.
+32.2.15. Executing AST frontend in derive mode using pre-parsed AST for module `\shifter'.
+32.2.16. Executing AST frontend in derive mode using pre-parsed AST for module `\alu'.
+32.2.17. Executing AST frontend in derive mode using pre-parsed AST for module `\magcompare32'.
+32.2.18. Executing AST frontend in derive mode using pre-parsed AST for module `\adder'.
+32.2.19. Executing AST frontend in derive mode using pre-parsed AST for module `\signext'.
+32.2.20. Executing AST frontend in derive mode using pre-parsed AST for module `\regfile'.
+32.2.21. Executing AST frontend in derive mode using pre-parsed AST for module `\mux2'.
+32.2.22. Executing AST frontend in derive mode using pre-parsed AST for module `\flopr'.
+32.2.23. Executing AST frontend in derive mode using pre-parsed AST for module `\flopenr'.
+32.2.24. Analyzing design hierarchy..
+32.2.25. Executing AST frontend in derive mode using pre-parsed AST for module `\mux5'.
+32.2.26. Executing AST frontend in derive mode using pre-parsed AST for module `\magcompare2c'.
+32.2.27. Executing AST frontend in derive mode using pre-parsed AST for module `\magcompare2b'.
+32.2.28. Analyzing design hierarchy..
+32.2.29. Analyzing design hierarchy..
+Warning: Resizing cell port dmem.dmem3.rd_out from 1 bits to 32 bits.
+Warning: Resizing cell port dmem.dmem2.rd_out from 1 bits to 32 bits.
+Warning: Resizing cell port dmem.dmem1.rd_out from 1 bits to 32 bits.
+Warning: Resizing cell port dmem.dmem0.rd_out from 1 bits to 32 bits.
+32.3. Executing PROC pass (convert processes to netlists).
+32.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+32.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+32.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+32.3.4. Executing PROC_INIT pass (extract init attributes).
+32.3.5. Executing PROC_ARST pass (detect async resets in processes).
+32.3.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+32.3.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+32.3.8. Executing PROC_DFF pass (convert process syncs to FFs).
+32.3.9. Executing PROC_MEMWR pass (convert process memory writes to cells).
+32.3.10. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+32.3.11. Executing OPT_EXPR pass (perform const folding).
+32.4. Executing OPT_EXPR pass (perform const folding).
+32.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.6. Executing CHECK pass (checking for obvious problems).
+32.7. Executing OPT pass (performing simple optimizations).
+32.7.1. Executing OPT_EXPR pass (perform const folding).
+32.7.2. Executing OPT_MERGE pass (detect identical cells).
+32.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.7.5. Executing OPT_MERGE pass (detect identical cells).
+32.7.6. Executing OPT_DFF pass (perform DFF optimizations).
+32.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.7.8. Executing OPT_EXPR pass (perform const folding).
+32.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+32.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.7.12. Executing OPT_MERGE pass (detect identical cells).
+32.7.13. Executing OPT_DFF pass (perform DFF optimizations).
+32.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.7.15. Executing OPT_EXPR pass (perform const folding).
+32.7.16. Rerunning OPT passes. (Maybe there is more to do..)
+32.7.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.7.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.7.19. Executing OPT_MERGE pass (detect identical cells).
+32.7.20. Executing OPT_DFF pass (perform DFF optimizations).
+32.7.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.7.22. Executing OPT_EXPR pass (perform const folding).
+32.7.23. Finished OPT passes. (There is nothing left to do.)
+32.8. Executing FSM pass (extract and optimize FSM).
+32.8.1. Executing FSM_DETECT pass (finding FSMs in design).
+32.8.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+32.8.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+32.8.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.8.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+32.8.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+32.8.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+32.8.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+32.9. Executing OPT pass (performing simple optimizations).
+32.9.1. Executing OPT_EXPR pass (perform const folding).
+32.9.2. Executing OPT_MERGE pass (detect identical cells).
+32.9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.9.5. Executing OPT_MERGE pass (detect identical cells).
+32.9.6. Executing OPT_DFF pass (perform DFF optimizations).
+32.9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.9.8. Executing OPT_EXPR pass (perform const folding).
+32.9.9. Rerunning OPT passes. (Maybe there is more to do..)
+32.9.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.9.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.9.12. Executing OPT_MERGE pass (detect identical cells).
+32.9.13. Executing OPT_DFF pass (perform DFF optimizations).
+32.9.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.9.15. Executing OPT_EXPR pass (perform const folding).
+32.9.16. Finished OPT passes. (There is nothing left to do.)
+32.10. Executing WREDUCE pass (reducing word size of cells).
+32.11. Executing PEEPOPT pass (run peephole optimizers).
+32.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.13. Executing ALUMACC pass (create $alu and $macc cells).
+32.14. Executing SHARE pass (SAT-based resource sharing).
+32.15. Executing OPT pass (performing simple optimizations).
+32.15.1. Executing OPT_EXPR pass (perform const folding).
+32.15.2. Executing OPT_MERGE pass (detect identical cells).
+32.15.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.15.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.15.5. Executing OPT_MERGE pass (detect identical cells).
+32.15.6. Executing OPT_DFF pass (perform DFF optimizations).
+32.15.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.15.8. Executing OPT_EXPR pass (perform const folding).
+32.15.9. Rerunning OPT passes. (Maybe there is more to do..)
+32.15.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.15.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.15.12. Executing OPT_MERGE pass (detect identical cells).
+32.15.13. Executing OPT_DFF pass (perform DFF optimizations).
+32.15.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.15.15. Executing OPT_EXPR pass (perform const folding).
+32.15.16. Finished OPT passes. (There is nothing left to do.)
+32.16. Executing MEMORY pass.
+32.16.1. Executing OPT_MEM pass (optimize memories).
+32.16.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+32.16.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+32.16.4. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+32.16.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.16.6. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+32.16.7. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+32.16.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.16.9. Executing MEMORY_COLLECT pass (generating $mem cells).
+32.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.18. Executing OPT pass (performing simple optimizations).
+32.18.1. Executing OPT_EXPR pass (perform const folding).
+32.18.2. Executing OPT_MERGE pass (detect identical cells).
+32.18.3. Executing OPT_DFF pass (perform DFF optimizations).
+32.18.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.18.5. Finished fast OPT passes.
+32.19. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+32.20. Executing OPT pass (performing simple optimizations).
+32.20.1. Executing OPT_EXPR pass (perform const folding).
+32.20.2. Executing OPT_MERGE pass (detect identical cells).
+32.20.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.20.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.20.5. Executing OPT_MERGE pass (detect identical cells).
+32.20.6. Executing OPT_SHARE pass.
+32.20.7. Executing OPT_DFF pass (perform DFF optimizations).
+32.20.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.20.9. Executing OPT_EXPR pass (perform const folding).
+32.20.10. Rerunning OPT passes. (Maybe there is more to do..)
+32.20.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.20.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.20.13. Executing OPT_MERGE pass (detect identical cells).
+32.20.14. Executing OPT_SHARE pass.
+32.20.15. Executing OPT_DFF pass (perform DFF optimizations).
+32.20.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.20.17. Executing OPT_EXPR pass (perform const folding).
+32.20.18. Rerunning OPT passes. (Maybe there is more to do..)
+32.20.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+32.20.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+32.20.21. Executing OPT_MERGE pass (detect identical cells).
+32.20.22. Executing OPT_SHARE pass.
+32.20.23. Executing OPT_DFF pass (perform DFF optimizations).
+32.20.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.20.25. Executing OPT_EXPR pass (perform const folding).
+32.20.26. Finished OPT passes. (There is nothing left to do.)
+32.21. Executing TECHMAP pass (map to technology primitives).
+32.21.1. Executing Verilog-2005 frontend: /home/pst_nafi/OpenROAD-flow-scripts/tools/install/yosys/bin/../share/yosys/techmap.v
+32.21.2. Continuing TECHMAP pass.
+32.22. Executing OPT pass (performing simple optimizations).
+32.22.1. Executing OPT_EXPR pass (perform const folding).
+32.22.2. Executing OPT_MERGE pass (detect identical cells).
+32.22.3. Executing OPT_DFF pass (perform DFF optimizations).
+32.22.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.22.5. Finished fast OPT passes.
+32.23. Executing ABC pass (technology mapping using ABC).
+32.23.1. Extracting gate netlist of module `$paramod\flopenr\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+32.23.2. Extracting gate netlist of module `$paramod\flopr\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+32.23.3. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000000001' to `<abc-temp-dir>/input.blif'..
+32.23.4. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000000100' to `<abc-temp-dir>/input.blif'..
+32.23.5. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000000101' to `<abc-temp-dir>/input.blif'..
+32.23.6. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+32.23.7. Extracting gate netlist of module `$paramod\mux3\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+32.23.8. Extracting gate netlist of module `$paramod\mux5\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+32.23.9. Extracting gate netlist of module `\ROM' to `<abc-temp-dir>/input.blif'..
+32.23.10. Extracting gate netlist of module `\adder' to `<abc-temp-dir>/input.blif'..
+32.23.11. Extracting gate netlist of module `\alu' to `<abc-temp-dir>/input.blif'..
+32.23.12. Extracting gate netlist of module `\aludec' to `<abc-temp-dir>/input.blif'..
+32.23.13. Extracting gate netlist of module `\controller' to `<abc-temp-dir>/input.blif'..
+32.23.14. Extracting gate netlist of module `\datapath' to `<abc-temp-dir>/input.blif'..
+32.23.15. Extracting gate netlist of module `\dmem' to `<abc-temp-dir>/input.blif'..
+32.23.16. Extracting gate netlist of module `\magcompare2b' to `<abc-temp-dir>/input.blif'..
+32.23.17. Extracting gate netlist of module `\magcompare2c' to `<abc-temp-dir>/input.blif'..
+32.23.18. Extracting gate netlist of module `\magcompare32' to `<abc-temp-dir>/input.blif'..
+32.23.19. Extracting gate netlist of module `\maindec' to `<abc-temp-dir>/input.blif'..
+32.23.20. Extracting gate netlist of module `\regfile' to `<abc-temp-dir>/input.blif'..
+32.23.21. Extracting gate netlist of module `\riscv' to `<abc-temp-dir>/input.blif'..
+32.23.22. Extracting gate netlist of module `\riscv_top' to `<abc-temp-dir>/input.blif'..
+32.23.23. Extracting gate netlist of module `\shifter' to `<abc-temp-dir>/input.blif'..
+32.23.24. Extracting gate netlist of module `\signext' to `<abc-temp-dir>/input.blif'..
+32.24. Executing OPT pass (performing simple optimizations).
+32.24.1. Executing OPT_EXPR pass (perform const folding).
+32.24.2. Executing OPT_MERGE pass (detect identical cells).
+32.24.3. Executing OPT_DFF pass (perform DFF optimizations).
+32.24.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+32.24.5. Finished fast OPT passes.
+32.25. Executing HIERARCHY pass (managing design hierarchy).
+32.25.1. Analyzing design hierarchy..
+32.25.2. Analyzing design hierarchy..
+32.26. Printing statistics.
+32.27. Executing CHECK pass (checking for obvious problems).
+33. Executing TECHMAP pass (map to technology primitives).
+33.1. Executing Verilog-2005 frontend: ./platforms/asap7/yoSys/cells_adders_R.v
+33.2. Continuing TECHMAP pass.
+34. Executing TECHMAP pass (map to technology primitives).
+34.1. Executing Verilog-2005 frontend: /home/pst_nafi/OpenROAD-flow-scripts/tools/install/yosys/bin/../share/yosys/techmap.v
+34.2. Continuing TECHMAP pass.
+35. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+35.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+36. Executing ABC pass (technology mapping using ABC).
+36.1. Extracting gate netlist of module `$paramod\flopr\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+36.1.1. Executing ABC.
+36.1.2. Re-integrating ABC results.
+36.2. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000000001' to `<abc-temp-dir>/input.blif'..
+36.2.1. Executing ABC.
+36.2.2. Re-integrating ABC results.
+36.3. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000000100' to `<abc-temp-dir>/input.blif'..
+36.3.1. Executing ABC.
+36.3.2. Re-integrating ABC results.
+36.4. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000000101' to `<abc-temp-dir>/input.blif'..
+36.4.1. Executing ABC.
+36.4.2. Re-integrating ABC results.
+36.5. Extracting gate netlist of module `$paramod\mux2\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+36.5.1. Executing ABC.
+36.5.2. Re-integrating ABC results.
+36.6. Extracting gate netlist of module `$paramod\mux3\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+36.6.1. Executing ABC.
+36.6.2. Re-integrating ABC results.
+36.7. Extracting gate netlist of module `$paramod\mux5\WIDTH=s32'00000000000000000000000000100000' to `<abc-temp-dir>/input.blif'..
+36.7.1. Executing ABC.
+36.7.2. Re-integrating ABC results.
+36.8. Extracting gate netlist of module `\ROM' to `<abc-temp-dir>/input.blif'..
+36.8.1. Executing ABC.
+36.8.2. Re-integrating ABC results.
+36.9. Extracting gate netlist of module `\adder' to `<abc-temp-dir>/input.blif'..
+36.9.1. Executing ABC.
+36.9.2. Re-integrating ABC results.
+36.10. Extracting gate netlist of module `\alu' to `<abc-temp-dir>/input.blif'..
+36.10.1. Executing ABC.
+36.10.2. Re-integrating ABC results.
+36.11. Extracting gate netlist of module `\aludec' to `<abc-temp-dir>/input.blif'..
+36.11.1. Executing ABC.
+36.11.2. Re-integrating ABC results.
+36.12. Extracting gate netlist of module `\controller' to `<abc-temp-dir>/input.blif'..
+36.12.1. Executing ABC.
+36.12.2. Re-integrating ABC results.
+36.13. Extracting gate netlist of module `\datapath' to `<abc-temp-dir>/input.blif'..
+36.13.1. Executing ABC.
+36.13.2. Re-integrating ABC results.
+36.14. Extracting gate netlist of module `\dmem' to `<abc-temp-dir>/input.blif'..
+36.14.1. Executing ABC.
+36.14.2. Re-integrating ABC results.
+36.15. Extracting gate netlist of module `\magcompare2b' to `<abc-temp-dir>/input.blif'..
+36.15.1. Executing ABC.
+36.15.2. Re-integrating ABC results.
+36.16. Extracting gate netlist of module `\magcompare2c' to `<abc-temp-dir>/input.blif'..
+36.16.1. Executing ABC.
+36.16.2. Re-integrating ABC results.
+36.17. Extracting gate netlist of module `\magcompare32' to `<abc-temp-dir>/input.blif'..
+36.17.1. Executing ABC.
+36.17.2. Re-integrating ABC results.
+36.18. Extracting gate netlist of module `\maindec' to `<abc-temp-dir>/input.blif'..
+36.18.1. Executing ABC.
+36.18.2. Re-integrating ABC results.
+36.19. Extracting gate netlist of module `\regfile' to `<abc-temp-dir>/input.blif'..
+36.19.1. Executing ABC.
+36.19.2. Re-integrating ABC results.
+36.20. Extracting gate netlist of module `\riscv' to `<abc-temp-dir>/input.blif'..
+36.21. Extracting gate netlist of module `\riscv_top' to `<abc-temp-dir>/input.blif'..
+36.21.1. Executing ABC.
+36.21.2. Re-integrating ABC results.
+36.22. Extracting gate netlist of module `\shifter' to `<abc-temp-dir>/input.blif'..
+36.22.1. Executing ABC.
+36.22.2. Re-integrating ABC results.
+36.23. Extracting gate netlist of module `\signext' to `<abc-temp-dir>/input.blif'..
+37. Printing statistics.
+38. Executing HIERARCHY pass (managing design hierarchy).
+38.1. Analyzing design hierarchy..
+38.2. Analyzing design hierarchy..
+Found module riscv_top
+Found module $paramod\mux2\WIDTH=s32'00000000000000000000000000100000
+Found module ROM
+Found module dmem
+Found module riscv
+Found module controller
+Found module $paramod\mux2\WIDTH=s32'00000000000000000000000000000001
+Found module $paramod\mux2\WIDTH=s32'00000000000000000000000000000100
+Found module aludec
+Found module maindec
+Found module datapath
+Found module $paramod\flopr\WIDTH=s32'00000000000000000000000000100000
+Found module $paramod\mux2\WIDTH=s32'00000000000000000000000000000101
+Found module $paramod\mux2\WIDTH=s32'00000000000000000000000000100000
+Found module $paramod\mux3\WIDTH=s32'00000000000000000000000000100000
+Found module adder
+Found module alu
+Found module magcompare32
+Found module magcompare2b
+Found module magcompare2c
+Found module regfile
+Found module shifter
+Found module signext
+Found module $paramod\mux5\WIDTH=s32'00000000000000000000000000100000
+39. Printing statistics.
+Area of module \riscv_top is 2287.651480
+Preserving hierarchical module: \riscv_top
+40. Printing statistics.
+Area of module $paramod\mux2\WIDTH=s32'00000000000000000000000000100000 is 6.794280
+Preserving hierarchical module: $paramod\mux2\WIDTH=s32'00000000000000000000000000100000
+41. Printing statistics.
+Area of module \ROM is 1.414260
+Preserving hierarchical module: \ROM
+42. Printing statistics.
+Area of module \dmem is 1102.064200
+Preserving hierarchical module: \dmem
+43. Printing statistics.
+Area of module \riscv is 1177.305840
+Preserving hierarchical module: \riscv
+44. Printing statistics.
+Area of module \controller is 8.485560
+Preserving hierarchical module: \controller
+45. Printing statistics.
+Area of module $paramod\mux2\WIDTH=s32'00000000000000000000000000000001 is 0.291600
+Preserving hierarchical module: $paramod\mux2\WIDTH=s32'00000000000000000000000000000001
+46. Printing statistics.
+Area of module $paramod\mux2\WIDTH=s32'00000000000000000000000000000100 is 0.801900
+Preserving hierarchical module: $paramod\mux2\WIDTH=s32'00000000000000000000000000000100
+47. Printing statistics.
+Area of module \aludec is 3.236760
+Preserving hierarchical module: \aludec
+48. Printing statistics.
+Area of module \maindec is 2.799360
+Preserving hierarchical module: \maindec
+49. Printing statistics.
+Area of module \datapath is 1168.820280
+Preserving hierarchical module: \datapath
+50. Printing statistics.
+Area of module $paramod\flopr\WIDTH=s32'00000000000000000000000000100000 is 15.367320
+Preserving hierarchical module: $paramod\flopr\WIDTH=s32'00000000000000000000000000100000
+51. Printing statistics.
+Area of module $paramod\mux2\WIDTH=s32'00000000000000000000000000000101 is 0.991440
+Preserving hierarchical module: $paramod\mux2\WIDTH=s32'00000000000000000000000000000101
+52. Printing statistics.
+Area of module $paramod\mux2\WIDTH=s32'00000000000000000000000000100000 is 6.794280
+Preserving hierarchical module: $paramod\mux2\WIDTH=s32'00000000000000000000000000100000
+53. Printing statistics.
+Area of module $paramod\mux3\WIDTH=s32'00000000000000000000000000100000 is 12.874140
+Preserving hierarchical module: $paramod\mux3\WIDTH=s32'00000000000000000000000000100000
+54. Printing statistics.
+Area of module \adder is 17.977140
+Preserving hierarchical module: \adder
+55. Printing statistics.
+Area of module \alu is 40.663620
+Preserving hierarchical module: \alu
+56. Printing statistics.
+Area of module \magcompare32 is 13.836420
+Preserving hierarchical module: \magcompare32
+57. Printing statistics.
+Area of module \magcompare2b is 0.568620
+Preserving hierarchical module: \magcompare2b
+58. Printing statistics.
+Area of module \magcompare2c is 0.306180
+Preserving hierarchical module: \magcompare2c
+59. Printing statistics.
+Area of module \regfile is 892.514700
+Preserving hierarchical module: \regfile
+60. Printing statistics.
+Area of module \shifter is 66.441060
+Preserving hierarchical module: \shifter
+61. Printing statistics.
+Area of module \signext is 15.017400
+Preserving hierarchical module: \signext
+62. Printing statistics.
+Area of module $paramod\mux5\WIDTH=s32'00000000000000000000000000100000 is 15.017400
+Preserving hierarchical module: $paramod\mux5\WIDTH=s32'00000000000000000000000000100000
+Warnings: 17 unique messages, 17 total
+End of script. Logfile hash: df3b72bd1c, CPU: user 26.46s system 0.45s, MEM: 145.93 MB peak
+Yosys 0.13+15 (git sha1 bc027b2ca, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)
+Time spent: 50% 2x abc (26 sec), 39% 26x stat (20 sec), ...
+Elapsed time: 0:52.87[h:]min:sec. CPU time: user 51.52 sys 1.37 (100%). Peak memory: 149596KB.

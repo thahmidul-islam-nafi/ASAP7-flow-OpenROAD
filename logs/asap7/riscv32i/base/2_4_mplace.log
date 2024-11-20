@@ -1,0 +1,113 @@
+OpenROAD v2.0-6895-g5c85b36f8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13178, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13211, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13244, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13277, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13310, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13343, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13376, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14772, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14805, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14838, timing group from output port.
+[WARNING STA-0053] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz line 34, library asap7sc7p5t_AO_RVT_FF_nldm_211120 already exists.
+[WARNING STA-0053] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz line 34, library asap7sc7p5t_INVBUF_RVT_FF_nldm_211120 already exists.
+[WARNING STA-0053] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz line 34, library asap7sc7p5t_OA_RVT_FF_nldm_211120 already exists.
+[WARNING STA-0053] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 34, library asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120 already exists.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13178, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13211, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13244, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13277, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13310, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13343, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 13376, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14772, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14805, timing group from output port.
+[WARNING STA-0164] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 14838, timing group from output port.
+[WARNING STA-0053] /home/pst_nafi/OpenROAD-flow-scripts/flow/platforms/asap7/lib/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib line 35, library asap7sc7p5t_SEQ_RVT_FF_nldm_220123 already exists.
+[WARNING STA-0053] ./platforms/asap7/lib/fakeram7_256x32.lib line 1, library fakeram7_256x32 already exists.
+HierRTLMP Flow enabled...
+Call Macro Placer  -max_num_inst 10000 -min_num_inst 5000 -max_num_macro 4 -min_num_macro 1 -halo_width 10 -report_directory /home/pst_nafi/OpenROAD-flow-scripts/flow/objects/asap7/riscv32i/base/rtlmp
+area_weight_ = 0.1
+outline_weight_ = 100.0
+wirelength_weight_ = 100.0
+guidance_weight_ = 10.0
+fence_weight_ = 10.0
+boundary_weight_ = 20.0
+notch_weight_ = 10.0
+macro_blockage_weight_ = 10.0
+halo_width_ = 10.0
+Floorplan Outline: (0.0, 0.0) (120.0, 120.0),  Core Outline: (5, 5) (109, 109)
+Traversed logical hierarchy
+	Number of std cell instances : 9156
+	Area of std cell instances : 1069.32
+	Number of macros : 4
+	Area of macros : 1100.75
+	Total area : 2170.07
+	Design Utilization : 0.20
+	Core Utilization: 0.11
+
+num level: 2, max_macro: 40, min_macro: 10, max_inst:100000, min_inst:50000
+
+Create Data Flow
+
+Perform Clustering..
+
+Print Physical Hierachy Tree
+
+root  (0)  num_macro :  4   num_std_cell :  9156  macro_area :  1100.752  std_cell_area : 1069.3212
+
++---B0  (10)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B1  (11)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B2  (12)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---boot||dmem  (13)  num_macro :  4   num_std_cell :  31  macro_area :  1100.752  std_cell_area : 3.00348
+
++---pcmux  (15)  num_macro :  0   num_std_cell :  65  macro_area :  0.0  std_cell_area : 6.0944405
+
++---riscv  (16)  num_macro :  0   num_std_cell :  9058  macro_area :  0.0  std_cell_area : 1060.0774
+
++---(root)_glue_logic  (17)  num_macro :  0   num_std_cell :  2  macro_area :  0.0  std_cell_area : 0.1458
+
+
+Break mixed clusters into std cell and macro clusters.
+
+Print Physical Hierachy Tree after splitting std cell and macros in leaf clusters
+
+root  (0)  num_macro :  4   num_std_cell :  9156  macro_area :  1100.752  std_cell_area : 1069.3212
+
++---B0  (10)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B1  (11)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---B2  (12)  num_macro :  0   num_std_cell :  0  macro_area :  0.0  std_cell_area : 0.0
+
++---boot||dmem  (13)  num_macro :  0   num_std_cell :  31  macro_area :  0.0  std_cell_area : 3.00348
+
++---pcmux  (15)  num_macro :  0   num_std_cell :  65  macro_area :  0.0  std_cell_area : 6.0944405
+
++---riscv  (16)  num_macro :  0   num_std_cell :  9058  macro_area :  0.0  std_cell_area : 1060.0774
+
++---(root)_glue_logic  (17)  num_macro :  0   num_std_cell :  2  macro_area :  0.0  std_cell_area : 0.1458
+
++---dmem/dmem0||dmem/dmem1||dmem/dmem2||dmem/dmem3  (18)  num_macro :  4   num_std_cell :  0  macro_area :  1100.752  std_cell_area : 0.0
+
+Determine shaping function for clusters -- Macro Tilings.
+
+Creating the pin blockage for root cluster
+Perform Multilevel macro placement...
+boundary_weight_updated_flag = false,  boundary_weight_ = 20.0
+[MultiLevelMacroPlacement] Working on children of cluster: root, Outline 5.022, 5.13  104.976, 104.76
+
+[Hier-RTLMP::HardMacroClusterMacroPlacement] Place macros in cluster: dmem/dmem0||dmem/dmem1||dmem/dmem2||dmem/dmem3
+Align macros within the cluster root
+boundary_h_th : 6.27, boundary_v_th : 100.8
+notch_h_th : 6.27, notch_v_th : 100.8
+number of updated macros : 4
+number of macros in HardMacroCluster : 4
+Delete buffers for RTLMP flow...
+[INFO RSZ-0026] Removed 0 buffers.
+Elapsed time: 0:48.55[h:]min:sec. CPU time: user 171.64 sys 0.29 (354%). Peak memory: 315852KB.
