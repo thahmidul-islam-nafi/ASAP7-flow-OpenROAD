@@ -47,7 +47,7 @@ This repository contains custom scripts, and necessary files used in the RTL to 
 
 
 
-- **load_env_vars_flow.sh** - workaround to run each step the flow separatly. 
+- **load_env_vars_flow.sh** - workaround to run each step of the flow separately. 
 - **openroad_alias_list.txt** - List of bash aliases used for OpenROAD. Look for new additions in the changelog. 
 - **custom_commands** - **Contains custom commands for the tool**
 - **designs**
