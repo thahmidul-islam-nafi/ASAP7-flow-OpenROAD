@@ -48,7 +48,7 @@ This repository contains custom scripts, and necessary files used in the RTL to 
   - DRC and LVS
   - Generate GDSII using Klayout
 
-- **ECO (Engineering Change Order)**: Perform iterative buffer sizing and insertion on timing-critical paths to optimize timing and fix hold violations[Automated SoC, Mixed-Signal Design using OpenROAD and OpenFASoC](https://theopenroadproject.org/automated-soc-mixed-signal-design-using-openroad-and-openfasoc/).
+- **ECO (Engineering Change Order)**: Perform iterative buffer sizing and insertion on timing-critical paths to optimize timing and fix hold violations [Automated SoC, Mixed-Signal Design using OpenROAD and OpenFASoC](https://theopenroadproject.org/automated-soc-mixed-signal-design-using-openroad-and-openfasoc/).
 
 
 ## File Descriptions 
