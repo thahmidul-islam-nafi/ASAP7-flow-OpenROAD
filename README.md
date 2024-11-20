@@ -43,7 +43,7 @@ This repository contains custom scripts, and necessary files used in the RTL to 
 - **ECO (Engineering Change Order)**: Perform iterative buffer sizing and insertion on timing-critical paths to optimize timing and fix hold violations [Automated SoC, Mixed-Signal Design using OpenROAD and OpenFASoC](https://theopenroadproject.org/automated-soc-mixed-signal-design-using-openroad-and-openfasoc/).
 
 
-## File Descriptions 
+## File and Directory Descriptions 
 
 
 
