@@ -47,23 +47,23 @@ This repository contains custom scripts, and necessary files used in the RTL to 
 
 
 
-- load_env_vars_flow.sh - workaround to run each step the flow separatly. 
-- openroad_alias_list.txt - List of bash aliases used for OpenROAD. Look for new additions in the changelog. 
-- custom_commands - **Contains custom commands for the tool**
-- designs
+- **load_env_vars_flow.sh** - workaround to run each step the flow separatly. 
+- **openroad_alias_list.txt** - List of bash aliases used for OpenROAD. Look for new additions in the changelog. 
+- **custom_commands** - **Contains custom commands for the tool**
+- **designs**
   - asap7
     - riscv32i
-- logs - **Contains timing and power report files**
+- **logs** - **Contains timing and power report files**
   - asap7
     - riscv32i
       - base
-- objects
+- **objects**
   - asap7
     - riscv32i
       - base
         - lib
           - rtlmp
-- platforms
+- **platforms**
   - asap7
     - gds
       - KLayout
@@ -75,7 +75,7 @@ This repository contains custom scripts, and necessary files used in the RTL to 
         - openRoad
           - pdn
         - yoSys
-- results - **Contains odb objects for power, timing and IREM analysis, antenna reports** 
+- **results** - **Contains odb objects for power, timing and IREM analysis, antenna reports** 
   - asap7
     - riscv32i
       - base
