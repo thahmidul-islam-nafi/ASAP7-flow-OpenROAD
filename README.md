@@ -16,6 +16,7 @@ This repository contains custom scripts, and necessary files used in the RTL to 
 
 - **Floorplanning**
   - Define Chip Layout
+  - Define tracks and site rows
   - Create Power Plan
 
 - **Placement**
