@@ -4,9 +4,7 @@ This repository contains custom scripts, and necessary files used in the RTL to 
 
 ## OpenROAD Steps
 - **Setup Environment**
-  - Install OpenROAD-flow-scripts
-  - Set up Docker
-  - Configure Environment Variables
+  
 
 - **Prepare Design**
   - Organize Design Files
