@@ -1,13 +1,6 @@
 ## Contents 
 This repository contains custom scripts, and necessary files used in the RTL to GDSII flow of OpenROAD RISCV32I design with ASAP7 PDK
 
-## Changelog
-
-| Name  | Fixes/Updates                                                  | Date       |
-|-------|-----------------------------------------------------------------|------------|
-|Nafi| Added initial files and structured directories |Dec 08,2023|
-|Nafi| Added alias "sourceorenv" for loading OpenROAD environment variables, populated Makefile_commands.md and openroad_commands.md in explored_commands directory |Dec 11,2023|
-|Nafi| Added list_of_necessary_scripts_by_stage.md with list of scripts till Floorplan|Dec 12,2023|
 
 ## OpenROAD Steps
 - **Setup Environment**
